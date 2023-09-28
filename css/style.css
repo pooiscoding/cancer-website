@@ -1,16 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Noto Serif TC', serif;
-    background: #000;
+    font-family: 'Noto Sans CJK TC' , 'Microsoft JhengHei' , 'Noto Serif TC', sans-serif , serif;
+    background: #0d105b;
 }
 
 .container{
     width: 100%;
     height: 100vh;
-    
+    position: relative;   
+}
+
+.flexbox{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+
+.formbox{
+    position: relative;
+    text-align: center;
+}
+
+.formbox h1{
+    width: 400px;
+    margin: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.inputbox{
+    color: aliceblue;
+}
+
+input{
+    margin: 5px;
+    padding: 4px 8px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    outline-width: 3px;
+    outline-color: #ffffff;
+}
+
+::placeholder{
+    color: rgb(158, 195, 228);
 }
